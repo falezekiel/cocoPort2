@@ -55,7 +55,7 @@
     color: white;
 }
 .cv{
-    height: 30rem;
+    height: 60rem;
     width: 60%;
     background-color:#605e5e;
     margin: auto;
@@ -162,6 +162,7 @@ color: white;
     background: #232323;
     position: relative;
     margin: auto;
+    margin-top: 19rem;
     bottom: 30rem;
 
 }
@@ -186,7 +187,7 @@ color: white;
     font-size: 20px;
 }
 .cedi img{
-    width: 22rem;
+    width: 70%;
     height: 10rem;
 }
 
@@ -201,7 +202,7 @@ color: white;
     font-size: 20px;
 }
 .radio img{
-    width: 22rem;
+    width: 90%;
     height: 10rem;
 }
 .revista{
@@ -216,7 +217,7 @@ color: white;
 
 }
 .revista img{
-    width: 22rem;
+    width: 90%;
     height: 10rem;
     
 }
@@ -230,7 +231,7 @@ color: white;
     font-size: 20px;
 }
 .unc img{
-    width: 22rem;
+    width: 90%;
     height: 10rem;
 }
 .pie{
@@ -263,4 +264,163 @@ color: white;
 }
 #insta{
     margin-left: 13%;
+}
+
+/* Responsive */
+
+@media(max-width: 1307px){
+  .cv{
+    height: 62rem;
+  }
+}
+@media(max-width: 1262px){
+    .cv{
+      height: 66rem;
+    }
+  }
+  @media(max-width: 1115px){
+    .cv{
+      height: 68rem;
+      width: 70%;
+    }
+  }
+  @media(max-width: 920px){
+    .cv{
+      height: 68rem;
+      width: 100%;
+    }
+    .headernav{
+        width: 100%;
+    }
+    .proyectos{
+        width: 100%;
+    }
+    .btn-cv{
+      left: 33%; 
+    }
+    .contPie{
+        width: 100%;
+        left: 0%;
+    }
+  }
+@media(max-width: 1256px){
+
+    .imgPerfil{
+        margin-top: auto;
+    } 
+}
+
+@media(max-width: 774px){
+
+    .imgPerfil{
+        
+        margin:auto;
+    }
+
+    .presentacion{
+        display: none;
+      
+    }
+    .nav{
+        flex-direction: column;
+    }
+    #insta{
+        margin-left: 8%;
+    }
+}
+@media(max-width: 642px){
+    .imgPerfil{
+        width: 60%;
+    }
+    .navItem{
+        margin-top: 10%;
+        padding:10px
+    }
+    .cv{
+        height: 72rem;
+    }
+    .cedi img{
+width: 95%;
+    }
+    .radio img{
+        width: 130%;
+    }
+    .revista img{
+        width: 140%;
+    }
+  .unc img{
+    width: 130%;
+  }
+  .radio{
+    left: 3%;
+    top: 42rem
+
+}
+.unc {
+ left: 3%;
+ top: 58rem;
+}
+#textproy{
+    text-align: center;
+}
+.proyectos{
+    height: 80rem;
+}
+.expHeader2{
+    bottom: 72rem;
+    left: 23%;
+}
+}
+
+@media(max-width: 570px){
+    .cv{
+        height: 78rem;
+    }
+    .btn-cv{
+        left: 28%; 
+      }
+      .expHeader2{
+        left: 19%;
+        color: white;
+    }
+    .expHeader2 h2{
+        font-weight: 900;
+        font-size: 35px;
+    }
+    #insta{
+        margin-left: 4%;
+    }
+    .contPie a img {
+        margin-left: 5%;
+    }
+}
+@media(max-width: 521px){
+.cv{
+    height: 85rem;
+}
+.btn-cv{
+    left: 25%; 
+  }
+}
+@media(max-width: 454px){
+    .cv{
+        height: 92rem;
+    }
+    .btn-cv{
+        left: 21%; 
+      }
+      .radio img{
+        width: 110%;
+    }
+    .revista img{
+        width: 120%;
+    }
+  .unc img{
+    width: 116%;
+}
+}
+@media(max-width: 411px){
+    .cv{
+        height: 105rem;
+    }
 }
