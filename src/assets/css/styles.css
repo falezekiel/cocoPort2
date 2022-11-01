@@ -23,7 +23,8 @@
 .nav{
    
    display: flex;
-   flex-direction: row ;
+   flex-direction: column ;
+   margin-left: 10%;
    float: left;
    padding: 5px;
 }
@@ -401,6 +402,11 @@ width: 95%;
 .btn-cv{
     left: 25%; 
   }
+}
+@media(max-width:500px) {
+    .imgPerfil{
+        width: 50%;
+    }
 }
 @media(max-width: 454px){
     .cv{
